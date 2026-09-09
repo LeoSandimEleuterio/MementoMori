@@ -1,3 +1,14 @@
+if(keyboard_check_pressed(vk_space))
+{
+    create_dialog([
+    {
+        name: "Test dialog",
+        msg: "ghgchgchfgcfhcsdgfsahgdvhsdafusadyfgushvfstydfvsydfbyusadfhdbfuyvsdvbyfsdyufg"
+    } 
+    ])
+}
+
+
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
  var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
@@ -30,3 +41,5 @@ if(hp<=0)
 {
     game_restart();
 }
+
+

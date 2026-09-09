@@ -7,3 +7,6 @@ hp_total=hp;
 damage=1;
 
 facing=0;
+
+
+
