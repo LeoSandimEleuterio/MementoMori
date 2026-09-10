@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"RPG Test_2",
-    "path":"RPG Test_2.yyp",
+    "name":"Sprites_col",
+    "path":"folders/Sprites_col.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
