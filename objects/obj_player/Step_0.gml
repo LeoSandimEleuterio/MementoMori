@@ -1,6 +1,6 @@
 if(keyboard_check_pressed(vk_space))
 {
-    create_dialog([
+    ([
     {
         name: "Test dialog",
         msg: "ghgchgchfgcfhcsdgfsahgdvhsdafusadyfgushvfstydfvsydfbyusadfhdbfuyvsdvbyfsdyufg"
@@ -9,8 +9,13 @@ if(keyboard_check_pressed(vk_space))
 }
 
 
-var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
- var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+var _right = keyboard_check(ord("D")) or keyboard_check(vk_right);
+var _left = keyboard_check(ord("A")) or keyboard_check(vk_left);
+var _up = keyboard_check(ord("S")) or keyboard_check(vk_down);
+var _down = keyboard_check(ord("W")) or keyboard_check(vk_up);
+var _hor=_right-_left;
+var _ver=_up-_down
+
 
 move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
 
