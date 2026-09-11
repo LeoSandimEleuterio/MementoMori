@@ -46,6 +46,17 @@ if alarm[1]<0 and alarm[1]>-2 and (keyboard_check_pressed(vk_enter))
     alarm[1]=5
 }
 
+if cooldowncurrenta < cooldowna and alarm[1]
+{
+    cooldowncurrenta = cooldowncurrenta + (20/60);
+} else {
+    if (alarm[1])
+    {
+        instance_create_layer(x, y, "Instances_afterimg", afterimg_player)
+    cooldowncurrenta = 0;
+    }
+}
+
 if(hp<=0)
 {
     game_restart();
