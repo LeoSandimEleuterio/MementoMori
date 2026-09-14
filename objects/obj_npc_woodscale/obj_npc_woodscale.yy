@@ -6,8 +6,8 @@
   "name":"obj_npc_woodscale",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"npcs",
+    "path":"folders/Objects/npcs.yy",
   },
   "parentObjectId":{
     "name":"obj_npc_parent",

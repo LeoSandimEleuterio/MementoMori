@@ -1,0 +1,1 @@
+selected_target = obj_button_start;
