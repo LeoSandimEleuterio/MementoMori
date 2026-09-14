@@ -112,7 +112,7 @@
   "hinting":0,
   "includeTTF":false,
   "interpreter":0,
-  "italic":false,
+  "italic":true,
   "kerningPairs":[
     {"amount":1,"first":40,"second":106,},
     {"amount":-2,"first":44,"second":84,},

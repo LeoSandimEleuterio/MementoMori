@@ -1,12 +1,5 @@
-if(keyboard_check_pressed(vk_space))
-{
-    ([
-    {
-        name: "Test dialog",
-        msg: "ghgchgchfgcfhcsdgfsahgdvhsdafusadyfgushvfstydfvsydfbyusadfhdbfuyvsdvbyfsdyufg"
-    } 
-    ])
-}
+if(instance_exists(obj_dialog)) exit;
+
 
 
 var _right = keyboard_check(ord("D")) or keyboard_check(vk_right);
@@ -41,7 +34,7 @@ if (keyboard_check_pressed(vk_space))
     _inst.image_angle=facing;
     _inst.damage*=damage;
 }
-if alarm[1]<0 and alarm[1]>-2 and (keyboard_check_pressed(vk_enter))
+if alarm[1]<0 and alarm[1]>-2 and keyboard_check(ord("C"))
 {
     alarm[1]=5
 }
