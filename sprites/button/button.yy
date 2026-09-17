@@ -44,8 +44,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"RPG Test_2",
-    "path":"RPG Test_2.yyp",
+    "name":"utility_sprites",
+    "path":"folders/Sprites/utility_sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

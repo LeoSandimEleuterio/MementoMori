@@ -11,4 +11,3 @@ facing=0;
 //cooldown pro efeito de after image
 cooldowna = 1;
 cooldowncurrenta = 0;
-

@@ -10,7 +10,7 @@ var _hor=_right-_left;
 var _ver=_up-_down
 
 
-move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, box1], undefined, undefined, undefined, move_speed, move_speed);
 
 if (_hor != 0 or _ver != 0)
 {
@@ -54,5 +54,3 @@ if(hp<=0)
 {
     game_restart();
 }
-
-
