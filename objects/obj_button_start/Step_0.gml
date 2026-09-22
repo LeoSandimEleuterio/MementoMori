@@ -6,5 +6,5 @@ if(obj_controller.selected_target = obj_button_start){
 
 
 if(obj_controller.selected_target = obj_button_start and keyboard_check_direct(vk_enter)){
-    room_goto(tutorial);
+    room_goto(Room1);
 }

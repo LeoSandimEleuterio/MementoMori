@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"box1",
-  "eventList":[],
+  "%Name":"obj_room_transition_2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"box1",
+  "name":"obj_room_transition_2",
   "overriddenProperties":[],
   "parent":{
     "name":"boxes and other props",
     "path":"folders/Objects/boxes and other props.yy",
   },
-  "parentObjectId":{
-    "name":"movable_object_parent",
-    "path":"objects/movable_object_parent/movable_object_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"box_placeholder",
-    "path":"sprites/box_placeholder/box_placeholder.yy",
+    "name":"spr_button_run",
+    "path":"sprites/spr_button_run/spr_button_run.yy",
   },
-  "spriteMaskId":{
-    "name":"box_placeholder",
-    "path":"sprites/box_placeholder/box_placeholder.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
