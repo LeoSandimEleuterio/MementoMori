@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"box1",
-  "eventList":[],
+  "%Name":"box_y",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"box1",
+  "name":"box_y",
   "overriddenProperties":[],
   "parent":{
     "name":"boxes and other props",
