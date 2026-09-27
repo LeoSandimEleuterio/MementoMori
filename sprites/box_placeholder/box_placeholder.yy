@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"mori_sprites",
-    "path":"folders/Sprites/mori_sprites.yy",
+    "name":"placeholders",
+    "path":"folders/Sprites/placeholders.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
