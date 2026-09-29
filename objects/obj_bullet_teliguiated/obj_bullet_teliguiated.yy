@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_parent",
+  "%Name":"obj_bullet_teliguiated",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet_parent",
+  "name":"obj_bullet_teliguiated",
   "overriddenProperties":[],
   "parent":{
     "name":"enemies",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet",
-    "path":"sprites/spr_bullet/spr_bullet.yy",
+    "name":"spr_bullet_2",
+    "path":"sprites/spr_bullet_2/spr_bullet_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
