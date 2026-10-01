@@ -3,5 +3,4 @@ if (instance_exists(obj_dialog)) instance_destroy();
     
 
 
-
-alarm[1]=140;
+tilemap=layer_tilemap_get_id("Tiles_col");
