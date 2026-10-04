@@ -15,8 +15,8 @@
   ],
   "name":"Mori_fall_room",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"test_rooms",
+    "path":"folders/Rooms/test_rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

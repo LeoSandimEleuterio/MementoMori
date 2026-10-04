@@ -34,9 +34,15 @@ if (keyboard_check_pressed(vk_space))
     _inst.image_angle=facing;
     _inst.damage*=damage;
 }
-if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("C"))
+if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("C")) and can_dash = true
 {
     alarm[1]=5
+}
+
+if(alarm[1]){
+    can_dash = false
+}else{
+    can_dash = true
 }
 
 if cooldowncurrenta < cooldowna and alarm[1]
