@@ -8,7 +8,7 @@ damage=1;
 
 facing=0;
 
-can_dash = true;
+
 
 
 //cooldown pro efeito de after image

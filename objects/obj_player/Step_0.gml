@@ -1,5 +1,6 @@
 if(instance_exists(obj_dialog)) exit;
-
+if(alarm[3]>0) exit;
+if(alarm[1]>0) exit;   
 
 
 var _right = keyboard_check(ord("D")) or keyboard_check(vk_right);
@@ -34,16 +35,16 @@ if (keyboard_check_pressed(vk_space))
     _inst.image_angle=facing;
     _inst.damage*=damage;
 }
-if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("C")) and can_dash = true
+if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("C"))
 {
-    alarm[1]=5
+    alarm[1]=7
+}
+if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("C"))
+{
+    alarm[2]=1
+    
 }
 
-if(alarm[1]){
-    can_dash = false
-}else{
-    can_dash = true
-}
 
 if cooldowncurrenta < cooldowna and alarm[1]
 {
@@ -56,6 +57,11 @@ if cooldowncurrenta < cooldowna and alarm[1]
     }
 }
 
+var cutscene=collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,obj_activate_cutscene,false,true);
+
+if(cutscene!= noone){
+    with cutscene instance_destroy();
+}
 if(hp<=0)
 {
     game_restart();
