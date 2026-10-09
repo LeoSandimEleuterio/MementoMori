@@ -57,13 +57,13 @@ if cooldowncurrenta < cooldowna and alarm[1]
     }
 }
 
-if (global.main_state==e_main.ready){
-var cutscene=collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,obj_activate_cutscene,false,true);
-
-if(cutscene!= noone&&obj_cutscene.cutscenes[global.story_val][room]!=-1){
-    global.main_state=e_main.cutscene;
-    with obj_cutscene state=e_cutscene.init;
-}}
+//if (global.main_state==e_main.ready){
+//var cutscene=collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,obj_activate_cutscene,false,true);
+//
+//if(cutscene!= noone&&obj_cutscene.cutscenes[global.story_val][room]!=-1){
+    //global.main_state=e_main.cutscene;
+    //with obj_cutscene state=e_cutscene.init;
+//}}
 
 
 if(hp<=0)

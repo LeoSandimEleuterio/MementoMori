@@ -14,5 +14,5 @@ facing=0;
 //cooldown pro efeito de after image
 cooldowna = 1;
 cooldowncurrenta = 0;
-global.main_state=e_main.ready;
-global.story_val=0;
+//global.main_state=e_main.ready;
+//global.story_val=0;
