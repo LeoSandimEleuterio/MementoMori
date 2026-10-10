@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"box_y",
+  "%Name":"box",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"box_y",
+  "name":"box",
   "overriddenProperties":[],
   "parent":{
     "name":"boxes and other props",
     "path":"folders/Objects/boxes and other props.yy",
   },
   "parentObjectId":{
-    "name":"movable_object_parent",
-    "path":"objects/movable_object_parent/movable_object_parent.yy",
+    "name":"obj_collide",
+    "path":"objects/obj_collide/obj_collide.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"box_placeholder",
-    "path":"sprites/box_placeholder/box_placeholder.yy",
+    "name":"box_placeholder2",
+    "path":"sprites/box_placeholder2/box_placeholder2.yy",
   },
   "spriteMaskId":{
     "name":"box_placeholder",

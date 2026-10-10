@@ -1,3 +1,6 @@
 other.targetEnter = targetEnter;
 
-room_goto(targetRoom);
+if(door_open == true){
+    room_goto(targetRoom);
+}
+    

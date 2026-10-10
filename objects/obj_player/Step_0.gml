@@ -11,7 +11,7 @@ var _hor=_right-_left;
 var _ver=_up-_down
 
 
-move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, box_x], undefined, undefined, undefined, move_speed, move_speed);
+move_and_collide(_hor * move_speed_x, _ver * move_speed_y, [tilemap, obj_collide], undefined, undefined, undefined, move_speed_x, move_speed_y);
 
 if (_hor != 0 or _ver != 0)
 {
@@ -57,6 +57,20 @@ if cooldowncurrenta < cooldowna and alarm[1]
     }
 }
 
+//if place_meeting(x + move_speed_x, y, obj_collide){
+    //move_speed_x = 0;
+//}else{
+    //move_speed_x = 1;
+//}
+//
+//if place_meeting(x, y + move_speed_x, obj_collide){
+    //move_speed_y = 0;
+//}else{
+    //move_speed_y = 1
+//}
+
+
+
 //if (global.main_state==e_main.ready){
 //var cutscene=collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,obj_activate_cutscene,false,true);
 //
@@ -65,6 +79,36 @@ if cooldowncurrenta < cooldowna and alarm[1]
     //with obj_cutscene state=e_cutscene.init;
 //}}
 
+
+
+if (sprite_index == spr_player_idle_down or sprite_index == spr_player_walk_down){
+    face = DOWN;
+}
+if (sprite_index == spr_player_idle_up or sprite_index == spr_player_walk_up){
+    face = UP;
+}
+if (sprite_index == spr_player_idle_left or sprite_index == spr_player_walk_left){
+    face = LEFT;
+}
+if (sprite_index == spr_player_idle_right or sprite_index == spr_player_walk_right){
+    face = RIGHT;
+}
+
+
+interactKey = keyboard_check_pressed(vk_space)
+
+if interactKey == true{
+    var _checkDir = face * 90;
+    
+    var _checkX = x + lengthdir_x(interactDist, _checkDir);
+    var _checkY = y + lengthdir_y(interactDist, _checkDir);
+    var _pushBlockInst = instance_place(_checkX, _checkY, box);
+    
+    if instance_exists(_pushBlockInst) and _pushBlockInst.sliding == false{
+        _pushBlockInst.sliding = true;
+        _pushBlockInst.face_dir = face;
+    }
+}
 
 if(hp<=0)
 {
