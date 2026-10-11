@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
   "%Name":"doortest_open",
-  "bboxMode":0,
-  "bbox_bottom":39,
+  "bboxMode":2,
+  "bbox_bottom":43,
   "bbox_left":10,
   "bbox_right":34,
   "bbox_top":3,

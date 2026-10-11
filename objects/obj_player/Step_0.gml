@@ -11,7 +11,7 @@ var _hor=_right-_left;
 var _ver=_up-_down
 
 
-move_and_collide(_hor * move_speed_x, _ver * move_speed_y, [tilemap, obj_collide], undefined, undefined, undefined, move_speed_x, move_speed_y);
+move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_collide], undefined, undefined, undefined, move_speed, move_speed);
 
 if (_hor != 0 or _ver != 0)
 {
