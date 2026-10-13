@@ -19,6 +19,7 @@
   "height":48,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"d4762e38-c92c-413c-bfb8-f866eee9cbbc","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"d4762e38-c92c-413c-bfb8-f866eee9cbbc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"17b562ce-ffbe-4fb7-91f1-3f61133028e9","blendMode":0,"displayName":"default","isLocked":false,"name":"17b562ce-ffbe-4fb7-91f1-3f61133028e9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"start_floor_tiles",

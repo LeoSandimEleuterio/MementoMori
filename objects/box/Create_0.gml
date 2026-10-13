@@ -12,3 +12,5 @@ targetX = x;
 targetY = y;
 
 sliding = false;
+
+pushblockArea = false;

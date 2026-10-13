@@ -7,6 +7,12 @@ if sliding == false{
     yspd = 0;
 }
 
+if place_meeting(x, y, obj_pushing_area){
+    pushblockArea = true;
+}else{
+    pushblockArea = false;
+}
+
 if sliding == true{
     var _realDir = face_dir * 90;
     
@@ -19,6 +25,11 @@ if sliding == true{
     var _finalSpd = min( move_speed, _targetDist );
     xspd = lengthdir_x( _finalSpd, _realDir );
     yspd = lengthdir_y( _finalSpd, _realDir );
+    
+    if pushblockArea == true and !place_meeting(targetX, targetY, obj_pushing_area){
+        xspd = 0;
+        yspd = 0;
+    }
     
     if place_meeting(targetX, targetY, tilemap){
         xspd = 0;
