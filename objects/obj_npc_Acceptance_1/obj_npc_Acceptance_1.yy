@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc_woodscale",
+  "%Name":"obj_npc_Acceptance_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_npc_woodscale",
+  "name":"obj_npc_Acceptance_1",
   "overriddenProperties":[],
   "parent":{
     "name":"npcs",

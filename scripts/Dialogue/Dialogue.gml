@@ -7,43 +7,52 @@ function create_dialog(_messages)
     _inst.current_message=0;
 }
 char_colors = {
-    "Woodscale": c_green,
-    "You":  c_red,
+    "???": c_yellow,
+    "Mori":  c_red,
     "Bloobey": c_lime,
 }
 
 welcome_dialog =[
 {
-    name:"Woodscale",
-    msg:"Well hello there!"
+    name:"???",
+    msg:"???????"
 },
 {
-    name:"Woodscale",
-    msg:"Welcome to the game."
+    name:"???",
+    msg:"........"
 },
 {
-    name:"You",
-    msg:"Thank you."
+    name:"???",
+    msg:"!!!"
 },
 {
-    name:"Woodscale",
-    msg:"Just survive and reach the end!"
+    name:"???",
+    msg:"Ola pequenino!"
+},
+
+{
+    name:"Mori",
+    msg:"..."
 },
 {
-    name:"You",
+    name:"???",
+    msg:"Você parece perdido nesse lugar."
+},
+{
+    name:"Mori",
     msg:"Wow."
 },
 {
-    name:"You",
+    name:"Mori",
     msg:"That is useless."
 },
 
 {
-    name:"Woodscale",
+    name:"???",
     msg:"Anytime!"
 },
 {
-    name:"You",
+    name:"Mori",
     msg:"(Idiot...)"
 },
 

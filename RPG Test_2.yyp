@@ -44,7 +44,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"RPG Test_2",
   "resources":[
@@ -73,9 +73,9 @@
     {"id":{"name":"obj_enemy_4","path":"objects/obj_enemy_4/obj_enemy_4.yy",},},
     {"id":{"name":"obj_enemy_5","path":"objects/obj_enemy_5/obj_enemy_5.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
+    {"id":{"name":"obj_npc_Acceptance_1","path":"objects/obj_npc_Acceptance_1/obj_npc_Acceptance_1.yy",},},
     {"id":{"name":"obj_npc_bloobey","path":"objects/obj_npc_bloobey/obj_npc_bloobey.yy",},},
     {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},},
-    {"id":{"name":"obj_npc_woodscale","path":"objects/obj_npc_woodscale/obj_npc_woodscale.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_pushing_area","path":"objects/obj_pushing_area/obj_pushing_area.yy",},},
     {"id":{"name":"obj_target","path":"objects/obj_target/obj_target.yy",},},
