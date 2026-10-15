@@ -15,19 +15,27 @@ char_colors = {
 welcome_dialog =[
 {
     name:"???",
-    msg:"???????"
+    msg:"?"
 },
 {
     name:"???",
-    msg:"........"
+    msg:"..."
 },
 {
     name:"???",
-    msg:"!!!"
+    msg:"!"
 },
 {
     name:"???",
-    msg:"Ola pequenino!"
+    msg:"Ah! Olá, pequenino."
+},
+{
+    name:"???",
+    msg:"Você parece perdido nesse lugar."
+},
+{
+    name:"???",
+    msg:"Eu irei te ensinar como funcionam as coisas aqui."
 },
 
 {
@@ -36,27 +44,31 @@ welcome_dialog =[
 },
 {
     name:"???",
-    msg:"Você parece perdido nesse lugar."
+    msg:"Por favor siga para a próxima sala!"
 },
-{
-    name:"Mori",
-    msg:"Wow."
-},
-{
-    name:"Mori",
-    msg:"That is useless."
-},
-
-{
-    name:"???",
-    msg:"Anytime!"
-},
-{
-    name:"Mori",
-    msg:"(Idiot...)"
-},
-
 ]
+acceptance_2_dialog =[
+    {
+    name:"???",
+    msg:"Permita-me lhe ensinar sobre suas habilidades."
+    },
+    {
+    name:"???",
+    msg:"Ande com 'AWSD' ou com setas direcionais. "
+    },
+    {
+    name:"???",
+    msg:"Ataque com espaço."
+    },
+    {
+    name:"???",
+    msg:"E dê um dash pressionando 'Q' enquanto se move."
+    },
+]
+
+
+
+
 
 bloobey_diag1 = [ 
 {
