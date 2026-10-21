@@ -75,6 +75,7 @@
     {"id":{"name":"obj_enemy_5","path":"objects/obj_enemy_5/obj_enemy_5.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_npc_Acceptance_1","path":"objects/obj_npc_Acceptance_1/obj_npc_Acceptance_1.yy",},},
+    {"id":{"name":"obj_npc_Acceptance_end_tutorial","path":"objects/obj_npc_Acceptance_end_tutorial/obj_npc_Acceptance_end_tutorial.yy",},},
     {"id":{"name":"obj_npc_bloobey","path":"objects/obj_npc_bloobey/obj_npc_bloobey.yy",},},
     {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

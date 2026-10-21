@@ -64,10 +64,80 @@ acceptance_2_dialog =[
     name:"???",
     msg:"E dê um dash pressionando 'Q' enquanto se move."
     },
+    {
+    name:"Mori",
+    msg:"?"
+    },
 ]
-
-
-
+acceptance_3_dialog =[
+    {
+    name:"???",
+    msg:"Neste lugar existem varios enigmas."
+    },
+    {
+    name:"???",
+    msg:"Eles irão bloquear seu caminho. "
+    },
+    {
+    name:"???",
+    msg:"É necessário resolve-los para prosseguir."
+    },
+    {
+    name:"???",
+    msg:"E eu não poderei te ajudar."
+    },
+    {
+    name:"Mori",
+    msg:"..."
+},
+]
+acceptance_4_dialog =[
+    {
+    name:"???",
+    msg:"Existem varios objetos que podem ser movimentados."
+    },
+    {
+    name:"???",
+    msg:"Tente ataca-los. "
+    },
+    {
+    name:"???",
+    msg:"Mova os objetos para algum lugar importante."
+    },
+    {
+    name:"Mori",
+    msg:"..."
+},
+]
+acceptance_5_dialog =[
+    {
+    name:"???",
+    msg:"Bom trabalho!"
+    },
+    {
+    name:"???",
+    msg:"Eu lhe encontro mais a frente. "
+    },
+    
+]
+acceptance_6_dialog =[
+    {
+    name:"???",
+    msg:"Parece que você consegue cuidar de si mesmo."
+    },
+    {
+    name:"???",
+    msg:"Terei que deixa-lo agora. "
+    },
+    {
+    name:"Mori",
+    msg:"!"
+    },
+    {
+    name:"???",
+    msg:"Adeus."
+    },
+]
 
 
 bloobey_diag1 = [ 

@@ -35,11 +35,11 @@ if (keyboard_check_pressed(vk_space))
     _inst.image_angle=facing;
     _inst.damage*=damage;
 }
-if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("C"))
+if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("Q"))
 {
     alarm[1]=7
 }
-if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("C"))
+if alarm[1]<0 and alarm[1]>-2 and keyboard_check_pressed(ord("Q"))
 {
     alarm[2]=1
     
