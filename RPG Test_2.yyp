@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"RPG Test_2",
   "resources":[
@@ -81,6 +81,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_pushing_area","path":"objects/obj_pushing_area/obj_pushing_area.yy",},},
     {"id":{"name":"obj_target","path":"objects/obj_target/obj_target.yy",},},
+    {"id":{"name":"puzzle_button","path":"objects/puzzle_button/puzzle_button.yy",},},
     {"id":{"name":"room_enter","path":"objects/room_enter/room_enter.yy",},},
     {"id":{"name":"slakkkk","path":"objects/slakkkk/slakkkk.yy",},},
     {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
@@ -89,6 +90,7 @@
     {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
     {"id":{"name":"tutorial1","path":"rooms/tutorial1/tutorial1.yy",},},
     {"id":{"name":"tutorial2","path":"rooms/tutorial2/tutorial2.yy",},},
+    {"id":{"name":"tutorial3","path":"rooms/tutorial3/tutorial3.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Drawing","path":"scripts/Drawing/Drawing.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
@@ -97,6 +99,7 @@
     {"id":{"name":"box_placeholder2","path":"sprites/box_placeholder2/box_placeholder2.yy",},},
     {"id":{"name":"button_selected","path":"sprites/button_selected/button_selected.yy",},},
     {"id":{"name":"button","path":"sprites/button/button.yy",},},
+    {"id":{"name":"buttoni","path":"sprites/buttoni/buttoni.yy",},},
     {"id":{"name":"doortest_closed","path":"sprites/doortest_closed/doortest_closed.yy",},},
     {"id":{"name":"doortest_open","path":"sprites/doortest_open/doortest_open.yy",},},
     {"id":{"name":"In_cio_Parede_All_Tiles","path":"sprites/In_cio_Parede_All_Tiles/In_cio_Parede_All_Tiles.yy",},},
@@ -147,6 +150,7 @@
     {"roomId":{"name":"Mori_fall_room","path":"rooms/Mori_fall_room/Mori_fall_room.yy",},},
     {"roomId":{"name":"tutorial1","path":"rooms/tutorial1/tutorial1.yy",},},
     {"roomId":{"name":"tutorial2","path":"rooms/tutorial2/tutorial2.yy",},},
+    {"roomId":{"name":"tutorial3","path":"rooms/tutorial3/tutorial3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
