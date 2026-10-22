@@ -1,7 +1,9 @@
 if(instance_exists(obj_dialog)) exit;
 if(alarm[3]>0) exit;
-if(alarm[1]>0) exit;   
-
+if(alarm[1]>0) exit;  
+    
+if(instance_exists(obj_acceptance_goodbye)) exit;
+if(instance_exists(obj_acceptance_animation)) exit;
 
 var _right = keyboard_check(ord("D")) or keyboard_check(vk_right);
 var _left = keyboard_check(ord("A")) or keyboard_check(vk_left);

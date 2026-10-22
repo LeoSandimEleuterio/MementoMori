@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"RPG Test_2",
   "resources":[
@@ -54,6 +54,8 @@
     {"id":{"name":"ReadMe","path":"notes/ReadMe/ReadMe.yy",},},
     {"id":{"name":"afterimg_player","path":"objects/afterimg_player/afterimg_player.yy",},},
     {"id":{"name":"box","path":"objects/box/box.yy",},},
+    {"id":{"name":"obj_acceptance_animation","path":"objects/obj_acceptance_animation/obj_acceptance_animation.yy",},},
+    {"id":{"name":"obj_acceptance_goodbye","path":"objects/obj_acceptance_goodbye/obj_acceptance_goodbye.yy",},},
     {"id":{"name":"obj_activate_cutscene","path":"objects/obj_activate_cutscene/obj_activate_cutscene.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
     {"id":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},},
@@ -117,6 +119,7 @@
     {"id":{"name":"spr_enemy4","path":"sprites/spr_enemy4/spr_enemy4.yy",},},
     {"id":{"name":"spr_enemy5","path":"sprites/spr_enemy5/spr_enemy5.yy",},},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},
+    {"id":{"name":"spr_npc1_goodbye","path":"sprites/spr_npc1_goodbye/spr_npc1_goodbye.yy",},},
     {"id":{"name":"spr_npc1","path":"sprites/spr_npc1/spr_npc1.yy",},},
     {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},},
     {"id":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},},

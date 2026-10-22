@@ -3,6 +3,7 @@
   "%Name":"obj_npc_Acceptance_end_tutorial",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_acceptance_goodbye","path":"objects/obj_acceptance_goodbye/obj_acceptance_goodbye.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_npc_Acceptance_end_tutorial",
