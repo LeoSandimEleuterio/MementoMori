@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"msc_Mementomori_puzzlepiece",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":44.24431,
+  "exportDir":"",
+  "name":"msc_Mementomori_puzzlepiece",
+  "parent":{
+    "name":"Musics",
+    "path":"folders/Musics.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"msc_Mementomori_puzzlepiece.mp3",
+  "volume":0.7,
+}
