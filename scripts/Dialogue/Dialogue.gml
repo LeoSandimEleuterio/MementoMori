@@ -54,7 +54,7 @@ acceptance_2_dialog =[
     },
     {
     name:"???",
-    msg:"Ande com 'AWSD' ou com setas direcionais. "
+    msg:"Ande com 'WASD' ou com setas direcionais. "
     },
     {
     name:"???",
