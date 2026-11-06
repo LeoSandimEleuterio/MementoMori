@@ -8,7 +8,7 @@ function create_dialog(_messages)
 }
 char_colors = {
     "???": c_yellow,
-    "Mori":  c_red,
+    "Mori":  c_green,
     "Bloobey": c_lime,
 }
 

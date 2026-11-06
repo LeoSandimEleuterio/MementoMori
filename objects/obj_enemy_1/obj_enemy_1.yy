@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"soul_enemy1",
+    "path":"sprites/soul_enemy1/soul_enemy1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

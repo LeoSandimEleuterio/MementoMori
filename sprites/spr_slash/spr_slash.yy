@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"mori_sprites",
-    "path":"folders/Sprites/mori_sprites.yy",
+    "name":"mori_mini",
+    "path":"folders/Sprites/mori_sprites/mori_mini.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
