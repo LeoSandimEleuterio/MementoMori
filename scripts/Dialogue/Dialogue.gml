@@ -94,15 +94,15 @@ acceptance_3_dialog =[
 acceptance_4_dialog =[
     {
     name:"???",
-    msg:"Existem varios objetos que podem ser movimentados."
+    msg:"Existem vários objetos que podem ser movimentados."
     },
     {
     name:"???",
-    msg:"Tente ataca-los. "
+    msg:"Tente atacá-los enquanto se move na direção desejada."
     },
     {
     name:"???",
-    msg:"Mova os objetos para algum lugar importante."
+    msg:"Mova os objetos para lugares importantes."
     },
     {
     name:"Mori",
@@ -127,7 +127,7 @@ acceptance_6_dialog =[
     },
     {
     name:"???",
-    msg:"Terei que deixa-lo agora. "
+    msg:"Terei que deixá-lo agora. "
     },
     {
     name:"Mori",
@@ -142,24 +142,24 @@ acceptance_6_dialog =[
 
 bloobey_diag1 = [ 
 {
-    name:"You",
-    msg:"Hello."
+    name:"Mori",
+    msg:"..."
 },
 {
     name:"Bloobey",
-    msg:"blbhblh."
+    msg:"blbhblhbblhhbgh"
 },
 {
     name:"Bloobey",
     msg:"Blop!"
 },
 {
-    name:"You",
+    name:"Mori",
     msg:"..."
 },
 {
-    name:"You",
-    msg:"(Luckily that is a friendly slime!)"
+    name:"Mori",
+    msg:"*chad face*"
 },
 
 ]

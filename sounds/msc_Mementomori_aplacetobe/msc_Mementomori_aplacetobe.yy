@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"msc_Mementomori_aplacetobe.mp3",
-  "volume":0.7,
+  "volume":1.0,
 }
