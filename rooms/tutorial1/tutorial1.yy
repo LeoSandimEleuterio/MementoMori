@@ -8,7 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_1186274D","path":"rooms/tutorial1/tutorial1.yy",},
     {"name":"inst_228D69FC","path":"rooms/tutorial1/tutorial1.yy",},
-    {"name":"inst_43CE18B4","path":"rooms/tutorial1/tutorial1.yy",},
+    {"name":"inst_43BE7D0D","path":"rooms/tutorial1/tutorial1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,13 +20,13 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"propertyId":{"name":"visible","path":"objects/obj_door_plate/obj_door_plate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":656.0,"y":176.0,},
         {"$GMRInstance":"v4","%Name":"inst_228D69FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_228D69FC","objectId":{"name":"obj_mori_awakens","path":"objects/obj_mori_awakens/obj_mori_awakens.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":656.0,"y":240.0,},
-        {"$GMRInstance":"v4","%Name":"inst_43CE18B4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43CE18B4","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"properties":[
+        {"$GMRInstance":"v4","%Name":"inst_43BE7D0D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43BE7D0D","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_door_plate/obj_door_plate.yy",},"resource":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room1_1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"propertyId":{"name":"targetEnter","path":"objects/obj_door_plate/obj_door_plate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"trollface",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"propertyId":{"name":"door_open","path":"objects/obj_door_plate/obj_door_plate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"propertyId":{"name":"allowed","path":"objects/obj_door_plate/obj_door_plate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door_plate","path":"objects/obj_door_plate/obj_door_plate.yy",},"propertyId":{"name":"state","path":"objects/obj_door_plate/obj_door_plate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":288.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":272.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_afterimg","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances_afterimg","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Cutscenes","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Cutscenes","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
